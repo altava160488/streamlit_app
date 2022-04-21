@@ -11,7 +11,7 @@ streamlit.text('🥚Hard-Boiled Free-Range Egg🥚')
 # my_list_of_scv 
 #streamlit.dataframe(my_list_of_scv)
 
-streamlit.title('Build your own fruit smoothie')
+streamlit.title('🥒🥬🥦🥕🍏Build your own fruit smoothie🍇🍍🍉🍊🍋🍎')
 my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 my_fruit_list
 #streamlit.dataframe(my_fruit_list)
