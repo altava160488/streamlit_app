@@ -31,5 +31,6 @@ fruits_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_show)
 
 # ==================================================================================================================================================== #
+streamlit.header("Fruityvice Fruit Advice!")
 fruitvice_response = req.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruitvice_response)
