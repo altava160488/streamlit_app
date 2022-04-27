@@ -32,5 +32,6 @@ streamlit.dataframe(fruits_show)
 
 # ==================================================================================================================================================== #
 streamlit.header("Fruityvice Fruit Advice!")
-fruitvice_response = req.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruitvice_response)
+fruityvice_response = req.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response)
+streamlit.text(fruityvice_response.json())
